@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+@mixin marginZero{
+    margin: 0px;
+    padding: 0px;
+}
+
+@mixin mobile__800{
+    @media(max-width: 800px){
+        @content;
+    }
+}
+
+@mixin mobile__414{
+    @media(max-width: 414px){
+        @content;
+    }
+}
+
+@mixin mobile__375{
+    @media(max-width: 375px){
+        @content;
+    }
+}
+

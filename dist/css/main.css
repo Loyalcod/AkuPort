@@ -1,0 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: Overpassfamily;
+  src: url("/fonts/Overpass-Bold.ttf");
+}
+
+@font-face {
+  font-family: Overpassfamily;
+  src: url("/fonts/Overpass-Regular.ttf");
+}
+/*# sourceMappingURL=main.css.map */
