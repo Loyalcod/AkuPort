@@ -14,4 +14,40 @@
   font-family: Overpassfamily;
   src: url("/fonts/Overpass-Regular.ttf");
 }
+
+.headerwall {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+}
+
+@media (max-width: 600px) {
+  .headerwall {
+    height: 300px;
+  }
+}
+
+@media (max-width: 414px) {
+  .headerwall {
+    height: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+  .headerwall {
+    height: 200px;
+  }
+}
+
+.headerwall .firstimage {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(67, 93, 80, 0.7)), to(rgba(67, 93, 80, 0.4))), url(/images/first__bkg.jpg);
+  background: linear-gradient(to right, rgba(67, 93, 80, 0.7), rgba(67, 93, 80, 0.4)), url(/images/first__bkg.jpg);
+  background-size: cover;
+  background-position: center;
+}
 /*# sourceMappingURL=main.css.map */

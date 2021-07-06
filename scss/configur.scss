@@ -9,8 +9,18 @@
     padding: 0px;
 }
 
+$primary-color: #435d50;
+$secondary-color: #435255;
+$accent-color: #f6f4ff;
+$pri_color: #f7f7f7;
+
 @mixin mobile__800{
     @media(max-width: 800px){
+        @content;
+    }
+}
+@mixin mobile__600{
+    @media(max-width: 600px){
         @content;
     }
 }
