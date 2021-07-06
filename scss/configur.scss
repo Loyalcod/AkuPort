@@ -4,6 +4,13 @@
     margin: 0px;
 }
 
+@mixin flexCenter($flexdirection){
+    display: flex;
+    flex-direction: $flexdirection;
+    
+
+}
+
 @mixin marginZero{
     margin: 0px;
     padding: 0px;

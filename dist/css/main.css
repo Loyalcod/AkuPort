@@ -19,7 +19,7 @@
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-color: aqua;
 }
 
@@ -49,5 +49,61 @@
   background: linear-gradient(to right, rgba(67, 93, 80, 0.7), rgba(67, 93, 80, 0.4)), url(/images/first__bkg.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.headerwall .firstimage .navigation {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 60px;
+  background-color: #f6f4ff;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .headerwall .firstimage .navigation {
+    height: 40px;
+  }
+}
+
+@media (max-width: 414px) {
+  .headerwall .firstimage .navigation {
+    display: none;
+  }
+}
+
+.headerwall .firstimage .menubut {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.headerwall .firstimage .menubut .iconify {
+  width: 35px;
+  height: 35px;
+}
+
+.headerwall .firstimage .menubut .iconify:hover {
+  background-color: #f6f4ff;
+}
+
+@media (max-width: 414px) {
+  .headerwall .firstimage .menubut {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */
